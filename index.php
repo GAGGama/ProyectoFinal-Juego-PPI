@@ -23,7 +23,7 @@
 			 				setTimeout("$('#mensaje').html('')",5000);
 			 			}else{
 			 				document.forma01.method='post';
-			 				//document.forma01.action='jueguito.php';
+			 				document.forma01.action='jueguito.php';
 			 				document.forma01.submit();
 			 			}
 			 		},
@@ -82,7 +82,7 @@
 	
  <body name="Padre">
 	<div id="formulario" align="center">
-		<form name="forma01" id="forma01" action="jueguito.php" method="POST">
+		<form name="forma01" id="forma01" action="./funciones/verfica_nickname.php" method="POST">
 			<label>NickName:</label>
 			<input type="text" name="nickname" id="nickname" placeholder="Escribe tu nickName"/>
 			<br>
