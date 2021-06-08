@@ -1,8 +1,8 @@
 <?php
 	//session_start();
 	//verifica correo
-	require "conecta.php";
-	$con=conecta();
+	//require "conecta.php";
+	//$con=conecta();
 	//Recibe variables
 	 $nickname = $_POST['nickname'];
     // $contrasena  = $_POST['pass'];
