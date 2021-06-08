@@ -37,7 +37,7 @@
 	</script>
 	<style>
 		body{
-			background-image:url("imagenes/Fondo5.JPG");
+			background-image:url("Imagenes/Fondo5.JPG");
 		}
 		
 		#formulario{
