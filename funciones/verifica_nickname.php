@@ -1,12 +1,12 @@
 <?php
 	//session_start();
 	//verifica correo
-	require "conecta.php";
-	$con=conecta();
+	//require "conecta.php";
+	//$con=conecta();
 	//Recibe variables
 	// $correo = $_POST['correo'];
     // $contrasena  = $_POST['pass'];
-	 $num	=0;
+	//$num	=0;
 	// $contrasena = md5($contrasena);
 	
 	// $sql="SELECT * FROM administradores WHERE correo='$correo' AND pass='$contrasena' AND status=1 AND eliminado=0";
@@ -19,6 +19,6 @@
 	// 	$_SESSION['idU']	= $idU;
 	// 	$_SESSION['nombre']	=$nombre;
 	// }
-	
-	echo $num;
+	echo "Hlaaaaaaa";
+	//echo $num;
 ?>

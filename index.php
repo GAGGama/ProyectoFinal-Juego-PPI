@@ -9,11 +9,11 @@
             console.log("Hola");
 			var nickname = document.forma01.nickname.value;		
 			// var pass = document.forma01.pass.value;
-			 if(correo=="" || pass==""){
+			 if(nickname==""){
 			 	$('#mensaje').html('Faltan campos por llenar');
 			 	setTimeout("$('#mensaje').html('')",5000);
 			 }else{
-			 	$.ajax({
+			 	/*$.ajax({
 			 		url:		'./funciones/verfica_nickname.php',
 			 		type:		'post',
 			 		data: $("#forma01").serialize(),
@@ -30,7 +30,7 @@
 			 		error:  function(){
 			 			alert('Error al conectar al servidor...');
 			 		}
-			 	});
+			 	});*/
 				
 			 }
 		}
@@ -82,7 +82,7 @@
 	
  <body name="Padre">
 	<div id="formulario" align="center">
-		<form name="forma01" id="forma01" action="./funciones/verifica_nickname.php" method="POST">
+		<form name="forma01" id="forma01" action="./funciones/verifica_nickname.php" method="POST" onsubmit="return recibe()">
 			<label>NickName:</label>
 			<input type="text" name="nickname" id="nickname" placeholder="Escribe tu nickName"/>
 			<br>
