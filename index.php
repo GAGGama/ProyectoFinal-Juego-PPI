@@ -82,7 +82,7 @@
 	
  <body name="Padre">
 	<div id="formulario" align="center">
-		<form name="forma01" id="forma01" >
+		<form name="forma01" id="forma01" action="lista_administradores_tabla.php" method="POST">
 			<label>NickName:</label>
 			<input type="text" name="nickname" id="nickname" placeholder="Escribe tu nickName"/>
 			<br>
