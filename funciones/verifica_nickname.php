@@ -1,7 +1,7 @@
 <?php
 	//session_start();
 	//verifica correo
-	require "conecta.php";
+	include "conecta.php";
      
 	$con=conecta();
 	//Recibe variables
