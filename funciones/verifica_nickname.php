@@ -1,5 +1,5 @@
 <?php
-	//session_start();
+	session_start();
 	//verifica correo
 	include "conecta.php";
      
