@@ -14,7 +14,7 @@
 			 	setTimeout("$('#mensaje').html('')",5000);
 			 }else{
 			 	$.ajax({
-			 		url:		'./funciones/verfica_nickname.php',
+			 		url:		'./funciones/verifica_nickname.php',
 			 		type:		'post',
 			 		data: $("#forma01").serialize(),
 			 		success:	function(res){
