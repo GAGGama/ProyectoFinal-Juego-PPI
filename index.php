@@ -4,36 +4,37 @@
 		<!-- <title>Formulario request</title>
 		<script src="js/jquery-3.3.1.min.js"></script> -->
 	</head>
-	<!-- <script>
+	<script>
 		function recibe(){
-			var correo = document.forma01.correo.value;		
-			var pass = document.forma01.pass.value;
-			if(correo=="" || pass==""){
-				$('#mensaje').html('Faltan campos por llenar');
-				setTimeout("$('#mensaje').html('')",5000);
-			}else{
-				$.ajax({
-					url:		'./Funciones/verfica_datos.php',
-					type:		'post',
-					data: $("#forma01").serialize(),
-					success:	function(res){
-						if(res==0){
-							$('#mensaje').html('Usuario no encontrado');
-							setTimeout("$('#mensaje').html('')",5000);
-						}else{
-							document.forma01.method='post';
-							document.forma01.action='bienvenido.php';
-							document.forma01.submit();
-						}
-					},
-					error:  function(){
-						alert('Error al conectar al servidor...');
-					}
-				});
+            console.log("Hola");
+			// var correo = document.forma01.correo.value;		
+			// var pass = document.forma01.pass.value;
+			// if(correo=="" || pass==""){
+			// 	$('#mensaje').html('Faltan campos por llenar');
+			// 	setTimeout("$('#mensaje').html('')",5000);
+			// }else{
+			// 	$.ajax({
+			// 		url:		'./funciones/verfica_datos.php',
+			// 		type:		'post',
+			// 		data: $("#forma01").serialize(),
+			// 		success:	function(res){
+			// 			if(res==0){
+			// 				$('#mensaje').html('Usuario no encontrado');
+			// 				setTimeout("$('#mensaje').html('')",5000);
+			// 			}else{
+			// 				document.forma01.method='post';
+			// 				document.forma01.action='jueguito.php';
+			// 				document.forma01.submit();
+			// 			}
+			// 		},
+			// 		error:  function(){
+			// 			alert('Error al conectar al servidor...');
+			// 		}
+			// 	});
 				
-			}
+			// }
 		}
-	</script> -->
+	</script>
 	<style>
 		body{
 			background-image:url("imagenes/Fondo5.JPG");
@@ -82,11 +83,8 @@
  <body name="Padre">
 	<div id="formulario" align="center">
 		<form name="forma01" id="forma01" action="lista_administradores_tabla.php" method="POST">
-			<label>Correo:</label>
-			<input type="text" name="correo" id="correo" placeholder="Escribe tu correo"/>
-			<br>
-			<label for="pasw">Contraseña:</label>
-			<input type="password" id="pass" name="pass" placeholder="Escribe tu Contraseña"/>
+			<label>NickName:</label>
+			<input type="text" name="nickname" id="nickname" placeholder="Escribe tu nickName"/>
 			<br>
 			<input onclick="recibe(); return false;" type="submit" value="Ingresar"/>
 			<div id="mensaje" class="error"></div>
