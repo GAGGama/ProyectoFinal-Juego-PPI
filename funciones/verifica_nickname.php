@@ -13,12 +13,12 @@
 	// $res=mysql_query($sql, $con);
 	// $num=mysql_num_rows($res);
 	
-	// if($num){
+	 if($num){
 	// 	$idU 	= mysql_result($res,0,"id");
 	// 	$nombre	=mysql_result($res,0,"nombre").' '.mysql_result($res,0,"apellidos");
 	// 	$_SESSION['idU']	= $idU;
 	// 	$_SESSION['nombre']	=$nombre;
-	// }
+	 }
 	echo "Hlaaaaaaa";
 	//echo $num;
 ?>
