@@ -1,38 +1,38 @@
 <html>
 
 	<head>
-		<!-- <title>Formulario request</title>
-		<script src="js/jquery-3.3.1.min.js"></script> -->
+		<title>Formulario request</title>
+		<script src="js/jquery-3.3.1.min.js"></script>
 	</head>
 	<script>
 		function recibe(){
             console.log("Hola");
-			// var correo = document.forma01.correo.value;		
+			var nickname = document.forma01.nickname.value;		
 			// var pass = document.forma01.pass.value;
-			// if(correo=="" || pass==""){
-			// 	$('#mensaje').html('Faltan campos por llenar');
-			// 	setTimeout("$('#mensaje').html('')",5000);
-			// }else{
-			// 	$.ajax({
-			// 		url:		'./funciones/verfica_datos.php',
-			// 		type:		'post',
-			// 		data: $("#forma01").serialize(),
-			// 		success:	function(res){
-			// 			if(res==0){
-			// 				$('#mensaje').html('Usuario no encontrado');
-			// 				setTimeout("$('#mensaje').html('')",5000);
-			// 			}else{
-			// 				document.forma01.method='post';
-			// 				document.forma01.action='jueguito.php';
-			// 				document.forma01.submit();
-			// 			}
-			// 		},
-			// 		error:  function(){
-			// 			alert('Error al conectar al servidor...');
-			// 		}
-			// 	});
+			 if(correo=="" || pass==""){
+			 	$('#mensaje').html('Faltan campos por llenar');
+			 	setTimeout("$('#mensaje').html('')",5000);
+			 }else{
+			 	$.ajax({
+			 		url:		'./funciones/verfica_nickname.php',
+			 		type:		'post',
+			 		data: $("#forma01").serialize(),
+			 		success:	function(res){
+			 			if(res==0){
+			 				$('#mensaje').html('Usuario no encontrado');
+			 				setTimeout("$('#mensaje').html('')",5000);
+			 			}else{
+			 				document.forma01.method='post';
+			 				document.forma01.action='jueguito.php';
+			 				document.forma01.submit();
+			 			}
+			 		},
+			 		error:  function(){
+			 			alert('Error al conectar al servidor...');
+			 		}
+			 	});
 				
-			// }
+			 }
 		}
 	</script>
 	<style>
