@@ -18,10 +18,10 @@
 		}
 		//echo "Lograste conectarte a la base de datos <br>";
 		return $con;
-	}
-    echo "Holaaaaaaaaaaaaa CONETCDPIWJV";*/
+	}*/
+    echo "Holaaaaaaaaaaaaa CONETCDPIWJV";
 
-    var mysql = require('mysql');
+   /*  var mysql = require('mysql');
 
     var con = mysql.createConnection({
     host: "us-cdbr-east-04.cleardb.com",
@@ -32,7 +32,7 @@
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
-});
+}); */
 
 	
 ?>
