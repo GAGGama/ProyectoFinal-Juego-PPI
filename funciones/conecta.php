@@ -19,5 +19,6 @@
 		//echo "Lograste conectarte a la base de datos <br>";
 		return $con;
 	}
+    echo "Holaaaaaaaaaaaaa CONETCDPIWJV";
 	
 ?>

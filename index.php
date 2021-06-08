@@ -1,3 +1,11 @@
+<?php
+	//session_start();
+	//if($_SESSION['idU']){
+	//	header("Location: bienvenido.php");
+	//}
+?>
+
+
 <html>
 
 	<head>

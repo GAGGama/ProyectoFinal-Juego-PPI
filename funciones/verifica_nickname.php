@@ -1,10 +1,10 @@
 <?php
 	//session_start();
 	//verifica correo
-	//require "conecta.php";
-	//$con=conecta();
+	require "conecta.php";
+	$con=conecta();
 	//Recibe variables
-	// $correo = $_POST['correo'];
+	 $nickname = $_POST['nickname'];
     // $contrasena  = $_POST['pass'];
 	$num	=0;
 	// $contrasena = md5($contrasena);
@@ -18,7 +18,7 @@
 	// 	$nombre	=mysql_result($res,0,"nombre").' '.mysql_result($res,0,"apellidos");
 	// 	$_SESSION['idU']	= $idU;
 	// 	$_SESSION['nombre']	=$nombre;
-	 }
+	}
 	echo "Hlaaaaaaa";
 	//echo $num;
 ?>
