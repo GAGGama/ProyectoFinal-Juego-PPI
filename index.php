@@ -13,7 +13,7 @@
 			 	$('#mensaje').html('Faltan campos por llenar');
 			 	setTimeout("$('#mensaje').html('')",5000);
 			 }else{
-			 	/*$.ajax({
+			 	$.ajax({
 			 		url:		'./funciones/verfica_nickname.php',
 			 		type:		'post',
 			 		data: $("#forma01").serialize(),
@@ -30,7 +30,7 @@
 			 		error:  function(){
 			 			alert('Error al conectar al servidor...');
 			 		}
-			 	});*/
+			 	});
 				
 			 }
              return true;
