@@ -3,7 +3,7 @@
 	//verifica correo
 	require "conecta.php";
      
-	//$con=conecta();
+	$con=conecta();
 	//Recibe variables
 	//$nickname = $_POST['nickname'];
     // $contrasena  = $_POST['pass'];
