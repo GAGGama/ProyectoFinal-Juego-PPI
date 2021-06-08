@@ -17,12 +17,12 @@
 			exit();
 		
 		}
-		//echo "Lograste conectarte a la base de datos <br>";
-        echo "GAMA;
+		echo "Lograste conectarte a la base de datos <br>";
+        echo "GAMA";
 		return $con;
 	}
 
-   /*  var mysql = require('mysql');
+	   /*  var mysql = require('mysql');
 
     var con = mysql.createConnection({
     host: "us-cdbr-east-04.cleardb.com",
