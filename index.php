@@ -82,7 +82,7 @@
 	
  <body name="Padre">
 	<div id="formulario" align="center">
-		<form name="forma01" id="forma01" action="./funciones/verfica_nickname.php" method="POST">
+		<form name="forma01" id="forma01" action="./funciones/verifica_nickname.php" method="POST">
 			<label>NickName:</label>
 			<input type="text" name="nickname" id="nickname" placeholder="Escribe tu nickName"/>
 			<br>
