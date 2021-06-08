@@ -22,7 +22,7 @@
 		return $con;
 	}*/
 
-	var mysql = require('mysql');
+	var mysql = require('../node_modules/mysql');
 
     var con = mysql.createConnection({
     host: "us-cdbr-east-04.cleardb.com",
