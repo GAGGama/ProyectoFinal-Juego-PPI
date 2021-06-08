@@ -23,7 +23,7 @@
 			 				setTimeout("$('#mensaje').html('')",5000);
 			 			}else{
 			 				document.forma01.method='post';
-			 				document.forma01.action='jueguito.php';
+			 				//document.forma01.action='jueguito.php';
 			 				document.forma01.submit();
 			 			}
 			 		},
