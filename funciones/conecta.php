@@ -22,15 +22,15 @@
 		return $con;
 	}*/
 
-	var mysql = require('../node_modules/mysql');
+	$mysql = require('../node_modules/mysql');
 
-    var con = mysql.createConnection({
+    $con = mysql.createConnection({
     host: "us-cdbr-east-04.cleardb.com",
     user: "b5e289d6409ef9",
     password: "5e49ca09"
     });
 
-con.connect(function(err) {
+$con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
 }); 
