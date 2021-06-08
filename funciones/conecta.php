@@ -6,6 +6,7 @@
 	define ("PASS_BD", '5e49ca09');
 
 	function conecta(){
+        echo "Holaaaaaaaaaaaaa CONETCDPIWJV";
 		if(!($con=mysql_connect(HOST,USER_BD,PASS_BD))){
 			echo "Error conectando al servidor de BBDD";
 			exit();		
@@ -17,9 +18,9 @@
 		
 		}
 		//echo "Lograste conectarte a la base de datos <br>";
+        echo "GAMA;
 		return $con;
 	}
-    echo "Holaaaaaaaaaaaaa CONETCDPIWJV";
 
    /*  var mysql = require('mysql');
 
