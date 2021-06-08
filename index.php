@@ -18,6 +18,7 @@
 			 		type:		'post',
 			 		data: $("#forma01").serialize(),
 			 		success:	function(res){
+                        alert(res);
 			 			if(res==0){
 			 				$('#mensaje').html('Usuario no encontrado');
 			 				setTimeout("$('#mensaje').html('')",5000);

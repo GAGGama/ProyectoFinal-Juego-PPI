@@ -6,7 +6,7 @@
 	//Recibe variables
 	// $correo = $_POST['correo'];
     // $contrasena  = $_POST['pass'];
-	//$num	=0;
+	$num	=0;
 	// $contrasena = md5($contrasena);
 	
 	// $sql="SELECT * FROM administradores WHERE correo='$correo' AND pass='$contrasena' AND status=1 AND eliminado=0";
